@@ -10,7 +10,7 @@ export default function ThemeToggle({ darkMode, setDarkMode, t }) {
         } alt="Light Mode" style={{width: "18px"}}/> 
       {t.light}
       </> : <>
-      <img src="/logos/DarkMode.png" alt="Dark Mode" style={{width: "18px"}}/>
+      <img src={`${import.meta.env.BASE_URL}logos/DarkMode.png`} alt="Dark Mode" style={{width: "18px"}}/>
       {t.dark}
       </> }
     </button>
