@@ -2,7 +2,7 @@ export const templates = [
   {
     id: "t1",
     title: "Gulfelite 1",
-    src: "/templates/GE1.png",
+    src: `${import.meta.env.BASE_URL}logos/GE1.png`,
     exportWidth: 1080,
     textStyle: {
       top: "92%",
@@ -14,7 +14,7 @@ export const templates = [
   {
     id: "t2",
     title: "Gulfelite 2",
-    src: "/templates/GE2.png",
+    src: `${import.meta.env.BASE_URL}logos/GE2.png`,
     exportWidth: 1080,
     textStyle: {
       top: "87%",
@@ -26,7 +26,7 @@ export const templates = [
   {
     id: "t3",
     title: "Gulfelite 3",
-    src: "/templates/GE3.png",
+    src: `${import.meta.env.BASE_URL}logos/GE3.png`,
     exportWidth: 1080,
     textStyle: {
       top: "93%",
@@ -38,7 +38,7 @@ export const templates = [
   {
     id: "t4",
     title: "Unichem 1",
-    src: "/templates/Uni1.png",
+    src: `${import.meta.env.BASE_URL}logos/Uni1.png`,
     exportWidth: 1080,
     textStyle: {
       top: "92%",
@@ -50,7 +50,7 @@ export const templates = [
   {
     id: "t5",
     title: "Unichem 2",
-    src: "/templates/Uni2.png",
+    src: `${import.meta.env.BASE_URL}logos/Uni2.png`,
     exportWidth: 1080,
     textStyle: {
       top: "90%",
@@ -62,7 +62,7 @@ export const templates = [
   {
     id: "t6",
     title: "Unichem 3",
-    src: "/templates/Uni3.png",
+    src: `${import.meta.env.BASE_URL}logos/Uni3.png`,
     exportWidth: 1080,
     textStyle: {
       top: "78%",
