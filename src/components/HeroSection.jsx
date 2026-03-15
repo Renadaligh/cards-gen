@@ -22,7 +22,7 @@ export default function HeroSection({
       >
         <img
             className="hero-logo"
-            src={darkMode ? "/logos/Mylogo.png" : "/logos/Mylogo2.png"}
+            src={darkMode ? `${import.meta.env.BASE_URL}logos/Mylogo.png` : `${import.meta.env.BASE_URL}logos/Mylogo2.png` }
             alt="Logo"
      />
 

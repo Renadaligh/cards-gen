@@ -1,7 +1,7 @@
 export default function LanguageToggle({ lang, setLang, t, darkMode }) {
   const icon = darkMode
-    ? "/logos/LanguageDark.png"
-    : "/logos/LanguageLight.png";
+    ? `${import.meta.env.BASE_URL}logos/LanguageDark.png`
+    : `${import.meta.env.BASE_URL}logos/LanguageLight.png`;
 
   return (
     <button
